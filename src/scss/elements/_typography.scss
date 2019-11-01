@@ -1,0 +1,45 @@
+// Section title
+.section-title {
+  color: var(--black-color);
+  font-family: var(--secondary-font);
+  position: relative;
+  .highlight {
+    color: var(--primary-color);
+  }
+}
+
+.section-title:hover:after {
+  width: 80px;
+}
+
+// White section title
+.white-section-title {
+  color: $white;
+}
+
+.white-section-title:after {
+  background-color: $white !important;
+}
+
+// Title divider
+.title-divider {
+  margin-bottom: 50px;
+  @media(max-width: $lg) {
+    margin-bottom: 35px;
+  }
+  @media(max-width: $md) {
+    margin-bottom: 25px;
+  }
+}
+
+.title-divider:after {
+  content: ' ';
+  display: block;
+  width: 55px;
+  height: 1px;
+  background-color: var(--black-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  transition: all .3s ease-in-out;
+}

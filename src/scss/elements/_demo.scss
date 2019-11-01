@@ -1,0 +1,102 @@
+// Button section
+.button-section {
+  .btn-wrap {
+    flex-wrap: wrap;
+  }
+  a {
+    margin: 10px;
+  }
+}
+
+// Element section
+.element-section {
+  padding: 80px 0;
+}
+
+// Element title
+.element-title {
+  font-size: 14px;
+  margin-bottom: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media(max-width: $lg) {
+    margin-bottom: 50px;
+  }
+  @media(max-width: $md) {
+    margin-bottom: 40px;
+  }
+}
+
+.element-title:after {
+  content: ' ';
+  display: flex;
+  width: 100px;
+  height: 1px;
+  background-color: var(--default-border);
+  margin-left: 20px;
+  @media(max-width: $md) {
+    width: 40px;
+  }
+}
+
+.element-title:before {
+  content: ' ';
+  display: flex;
+  width: 100px;
+  height: 1px;
+  background-color: var(--default-border);
+  margin-right: 20px;
+  @media(max-width: $md) {
+    width: 40px;
+  }
+}
+
+// Black element title
+.black-element-title {
+  color: var(--black-color);
+}
+
+// White element title
+.white-element-title {
+  color: $white;
+}
+
+// Element form align
+.element-form-left {
+  padding-right: 20px;
+  @media(max-width: $lg) {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.element-form-right {
+  padding-left: 20px;
+  @media(max-width: $lg) {
+    padding-left: 0;
+  }
+}
+
+// Column element
+.column-element {
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+// Heading element
+.heading-element {
+  font-weight: 600;
+  font-family: var(--primary-font);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--default-border);
+  margin-bottom: 20px;
+}
+
+// Table element
+.table-element {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}

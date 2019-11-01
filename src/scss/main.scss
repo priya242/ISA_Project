@@ -1,0 +1,45 @@
+/*
+[Import scss-modules]
+
+[1] Bootstrap 4 core
+[2] Declaration of css-variables
+[3] General Elements
+[4] General settings
+[5] Dynamic Styles
+[6] Navbar
+[7] Footer
+[8] Additional Classes
+
+[10] Hero Header Styles
+[11] Section Styles
+[12] Blog Styles
+[13] Portfolio Styles
+[14] Gallery Styles
+*/
+// [1] Bootstrap 4 core
+@import "../bootstrap/bootstrap";
+// [2] Declaration of css-variables
+@import "lester_variables";
+// [3] General Elements
+@import "lester_elements";
+// [4] General settings
+@import "lester_settings";
+
+// [6] Navbar
+@import "lester_navbar";
+// [7] Footer
+@import "lester_footer";
+// [8] Additional Classes
+@import "lester_additional";
+
+// [10] Hero Header Styles
+@import "lester_hero";
+// [11] Section Styles
+@import "lester_front";
+// [12] Blog Styles
+@import "lester_blog";
+// [13] Portfolio Styles
+@import "lester_portfolio";
+// [14] Gallery Styles
+@import "lester_gallery";
+

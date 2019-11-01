@@ -1,0 +1,170 @@
+/* General settings */
+body {
+  font-family: var(--primary-font);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--black-color);
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  line-height: 1.9;
+  @media(max-width: $lg) {
+    font-size: 14px;
+  }
+}
+
+#main-wrapper {
+  overflow: hidden !important;
+}
+
+i {
+  line-height: 1;
+}
+
+*:focus {
+  outline: none;
+}
+
+.ie-support {
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+
+  p {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+p {
+  color: var(--primary-font-color);
+}
+
+iframe {
+  border: none;
+}
+
+section {
+  position: relative;
+  z-index: 100;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-family: var(--primary-font);
+  letter-spacing: 0.3px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--secondary-font);
+}
+
+h1, h2, h3 {
+  letter-spacing: -2.2px;
+}
+
+h4 {
+  letter-spacing: -1.7px;
+}
+
+h5, h6 {
+  letter-spacing: -0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5 !important;
+  font-weight: 600;
+  color: var(--black-color);
+  font-family: var(--primary-font) !important;
+}
+
+h1 {
+  font-size: 56px;
+  @media(max-width: $lg) {
+    font-size: 48px;
+  }
+  @media(max-width: $md) {
+    font-size: 42px;
+  }
+  @media(max-width: $sm) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: 42px;
+  @media(max-width: $lg) {
+    font-size: 36px;
+  }
+  @media(max-width: $md) {
+    font-size: 32px;
+  }
+  @media(max-width: $sm) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 36px;
+  @media(max-width: $lg) {
+    font-size: 32px;
+  }
+  @media(max-width: $md) {
+    font-size: 28px;
+  }
+  @media(max-width: $sm) {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-size: 32px;
+  @media(max-width: $md) {
+    font-size: 26px;
+  }
+  @media(max-width: $sm) {
+    font-size: 24px;
+  }
+}
+
+h5 {
+  font-size: 24px;
+  @media(max-width: $sm) {
+    font-size: 20px;
+  }
+}
+
+h6 {
+  font-size: 18px;
+  @media(max-width: $sm) {
+    font-size: 16px;
+  }
+}
+
+::selection {
+  background-color: var(--selection_background);
+  color: var(--selection_color);
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+.mfp-container {
+  position: fixed;
+}
